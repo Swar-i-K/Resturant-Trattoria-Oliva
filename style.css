@@ -1,0 +1,98 @@
+.topbar {
+  background-color: #241F1C; /* charcoal */
+  color: #F3ECDD; /* cream */
+  font-size: 0.85rem;
+  padding: 8px 0;
+}
+.topbar a {
+  color: #F3ECDD;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.topbar a:hover {
+  color: #C9A227; /* gold */
+}
+.topbar .reserve-link {
+  color: #C9A227; /* gold, to make it stand out from the rest */
+  font-weight: 600;
+}
+.topbar .divider {
+  opacity: 0.35;
+  margin: 0 8px;
+}
+.navbar-oliva {
+  background-color: #FBF6EC; /* cream */
+  padding: 0.9rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.navbar-oliva .navbar-brand {
+  font-family: 'Fraunces', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #3E4A23; /* olive */
+}
+.navbar-oliva .navbar-brand span {
+  color: #6B7F3A; /* lighter olive */
+}
+.navbar-oliva .nav-link {
+  color: #241F1C;
+  font-weight: 500;
+  margin: 0 0.6rem;
+}
+.navbar-oliva .nav-link.active,
+.navbar-oliva .nav-link:hover {
+  color: #B5502F; /* rust — kept for nav links, olive is used for "Oliva" and the button */
+}
+.btn-rust {
+  background-color: #3E4A23; /* dark olive */
+  border-color: #3E4A23;
+  color: #FBF6EC;
+  padding: 0.5rem 1.3rem;
+  border-radius: 2px;
+}
+.btn-rust:hover {
+  background-color: #5C6B2E; /* lighter olive on hover */
+  border-color: #5C6B2E;
+  color: #FBF6EC;
+}
+#carouselExampleFade .carousel-item img {
+  height: 550px;       /* adjust this number to whatever height you want */
+  object-fit: cover;   /* crops the image to fill that height without stretching/distorting it */
+  width: 100%;
+}
+#carouselExampleFade .carousel-item {
+  position: relative;
+}
+#carouselExampleFade .carousel-caption {
+  top: 50%;
+  bottom: auto;
+  left: 10%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+#carouselExampleFade .carousel-item img {
+  opacity: 0.7;
+}
+#carouselExampleFade .carousel-caption h5 {
+  color: #2b3807 !important; /* dark olive */
+  font-weight: 1000 !important;
+  font-size: 4rem !important;
+}
+
+#carouselExampleFade .carousel-caption p {
+  color: #384023 !important; /* dark olive */
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+}
+
+#carouselExampleFade .carousel-caption .btn-rust {
+  background-color: #FBF6EC; /* cream */
+  border-color: #FBF6EC;
+  color: #192401; /* dark olive text on the button */
+}
+
+#carouselExampleFade .carousel-caption .btn-rust:hover {
+  background-color: #6B4423; /* brown */
+  border-color: #6B4423;
+  color: #FBF6EC; /* flip text to cream so it stays readable on the darker hover */
+}
